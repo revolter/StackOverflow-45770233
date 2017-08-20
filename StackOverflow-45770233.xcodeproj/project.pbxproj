@@ -36,6 +36,8 @@
 		54531CEC1F499AA900F5A735 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		54531CED1F499AA900F5A735 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		54531CEE1F499AA900F5A735 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		54531CF11F499EE300F5A735 /* ar-AE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-AE"; path = "ar-AE.lproj/Main.strings"; sourceTree = "<group>"; };
+		54531CF21F499EE300F5A735 /* ar-AE */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-AE"; path = "ar-AE.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				54531CDA1F499A0E00F5A735 /* Base */,
+				54531CF11F499EE300F5A735 /* ar-AE */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				54531CDF1F499A0E00F5A735 /* Base */,
+				54531CF21F499EE300F5A735 /* ar-AE */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -203,6 +207,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -252,6 +257,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
