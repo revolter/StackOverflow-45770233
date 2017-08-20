@@ -12,13 +12,17 @@
 
 @interface FirstViewController ()
 
+@property (strong, nonatomic) IBOutlet UIButton *arrowButton;
+
 @end
 
 @implementation FirstViewController
 
 - (void)viewDidLoad {
+
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+
+	self.arrowButton.imageView.semanticContentAttribute = UISemanticContentAttributeForceLeftToRight;
 }
 
 - (void)didReceiveMemoryWarning {
