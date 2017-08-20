@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqk-ee-QbE">
+                    <rect key="frame" x="141.5" y="318.5" width="92" height="30"/>
+                    <state key="normal" title="Open second"/>
+                    <connections>
+                        <action selector="onSecondTap:" destination="-1" eventType="touchUpInside" id="ESs-OG-S26"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSA-CK-bNR">
+                    <rect key="frame" x="20" y="20" width="13" height="24"/>
+                    <state key="normal" image="left_arrow-icon"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jqk-ee-QbE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6Ux-vO-Izl"/>
+                <constraint firstItem="YSA-CK-bNR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="IAf-Us-WrA"/>
+                <constraint firstItem="YSA-CK-bNR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="gmW-0J-8YX"/>
+                <constraint firstItem="jqk-ee-QbE" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="w0i-dK-hjv"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="left_arrow-icon" width="13" height="24"/>
+    </resources>
+</document>
